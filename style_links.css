@@ -1,0 +1,40 @@
+html {
+    height: 120%;
+    padding-top: 2%;
+    background: linear-gradient(#fff, #243b55);
+}
+
+title {
+    top: 100%;
+}
+
+body h2 {
+    position: relative;
+    top: 0px;
+    margin: -4px;
+    padding: -2px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    transform: translate(0%, 40%);
+    box-sizing: border-box;
+    box-shadow:  15px;
+    border-radius: 20px;
+}
+.dw-box{
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    width: 510px;
+    padding: 42px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    top: 0;
+    
+}
